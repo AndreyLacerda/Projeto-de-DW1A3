@@ -1,5 +1,66 @@
 body{
-	background-color: #131A22; 
+	background-color: #131A22;
+	color: ghostwhite;
+	text-align: center;
+}
+
+nav{
+	font-size: 18px;
+	box-shadow: 5px 4px gold;
 }
 
 .dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover{background-color: #146EB4 !important; color: GhostWhite !important;}
+
+.nav-link{
+	margin: 10px;
+	font-weight: 12px;
+}
+
+.nav-link:hover{
+	color: ghostwhite !important;
+	text-decoration: ghostwhite underline!important;
+}
+
+.tela-atual{
+	color: ghostwhite !important;
+	font-weight: bold;
+}
+
+.carousel-item {
+	height: 300px;
+  }
+
+.bd-example{
+	border: 1px solid gold;
+}
+
+.carousel-caption{
+	font-weight: bold;
+	font-size: 25px;
+	color: darkmagenta;
+	text-align: center !important;
+}
+
+.d-block {
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-height: 300px;
+}
+
+.texto-comum {
+	border: 2px solid black;
+}
+
+.texto-comum > h1{
+	margin-bottom: 20px;
+}
+
+figure > img{
+}
+
+p{
+	text-align: start;
+	padding-left: 40px;
+	padding-right: 40px;
+}
