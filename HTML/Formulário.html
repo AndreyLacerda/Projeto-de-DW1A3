@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../JS/bootstrap-4.3.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../CSS/Formulário.css">
+
+    <title>BraboSoft Soluções & Consultoria</title>
+  </head>
+  <body>
+	<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #232F3E;">
+	  <a class="navbar-brand">BraboSoft</a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	    <ul class="navbar-nav mr-auto">
+	      <li class="nav-item active">
+	        <a class="nav-link" href="Home.html" style="color: Gold;">Início <span class="sr-only">(current)</span></a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="QuemSomos.html" style="color: Gold;">Quem Somos</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="SobreAWS.html" style="color: Gold;">O que é AWS</a>
+	      </li>
+	      <li class="nav-item dropdown">
+			<a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color:Gold;">
+	          Serviços
+	        </a>
+	        <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: #FF9900;">
+	          <a class="dropdown-item" href="MigraçãoTRansferencia.html">Migração e Transferência</a>
+	          <div class="dropdown-divider"></div>
+	          <a class="dropdown-item" href="BancoDados.html">Banco de Dados</a>
+	          <div class="dropdown-divider"></div>
+	          <a class="dropdown-item" href="Armazenamento.html">Armazenamento</a>
+	          <div class="dropdown-divider"></div>
+	          <a class="dropdown-item" href="Processamento.html">Processamento</a>
+	        </div>
+	      </li>
+	    </ul>
+	    <a class="btn btn-outline-success my-2 my-sm-0" href="Formulário.html" role="button">Solicite os Nossos Serviços</a>
+	  </div>
+	</nav>
+	<h1 style="margin-top: 10px;">Formulário de solicitação de Serviço</h1>
+	<div id="div-grid1">
+		<form class="formGrid">
+			<div class="form-row">
+				<div class="col">
+				<input type="text" class="form-control" placeholder="Nome*">
+				</div>
+				<div class="col">
+				<input type="text" class="form-control" placeholder="Sobrenome*">
+				</div>
+			</div>
+			<div class="form-row">
+				<div class="col">
+				<input type="text" class="form-control" placeholder="Telefone">
+				</div>
+				<div class="col">
+				<input type="text" class="form-control" placeholder="Email*">
+				</div>
+			</div>
+			<div class="form-row">
+				<div class="col">
+				<input type="text" class="form-control" placeholder="Empresa*">
+				</div>
+				<div class="col">
+				<input type="text" class="form-control" placeholder="Cargo">
+				</div>
+			</div>
+			<div class="form-row">
+				<div class="col">
+					<select id="inputEstado" class="form-control">
+						<option value="" disabled selected>Estado/Estrangeiro</option>
+						<option value="AC">Acre</option>
+						<option value="AL">Alagoas</option>
+						<option value="AP">Amapá</option>
+						<option value="AM">Amazonas</option>
+						<option value="BA">Bahia</option>
+						<option value="CE">Ceará</option>
+						<option value="DF">Distrito Federal</option>
+						<option value="ES">Espírito Santo</option>
+						<option value="GO">Goiás</option>
+						<option value="MA">Maranhão</option>
+						<option value="MT">Mato Grosso</option>
+						<option value="MS">Mato Grosso do Sul</option>
+						<option value="MG">Minas Gerais</option>
+						<option value="PA">Pará</option>
+						<option value="PB">Paraíba</option>
+						<option value="PR">Paraná</option>
+						<option value="PE">Pernambuco</option>
+						<option value="PI">Piauí</option>
+						<option value="RJ">Rio de Janeiro</option>
+						<option value="RN">Rio Grande do Norte</option>
+						<option value="RS">Rio Grande do Sul</option>
+						<option value="RO">Rondônia</option>
+						<option value="RR">Roraima</option>
+						<option value="SC">Santa Catarina</option>
+						<option value="SP">São Paulo</option>
+						<option value="SE">Sergipe</option>
+						<option value="TO">Tocantins</option>
+						<option value="ES">Estrangeiro</option>
+					</select>
+				</div>
+				<div class="col">
+				<input type="text" class="form-control" placeholder="Cidade">
+				</div>
+			</div>
+			<div class="form-row">
+				<div class="col">
+					<div class="col-sm-2">Checkbox</div>
+					<div class="col-sm-10">
+						<div class="form-check">
+						<input class="form-check-input" type="checkbox" id="gridCheck1">
+						<label class="form-check-label" for="gridCheck1">
+							Migração e Transferência
+						</label>
+						</div>
+					</div>
+					<div class="col-sm-10">
+							<div class="form-check">
+							<input class="form-check-input" type="checkbox" id="gridCheck2">
+							<label class="form-check-label" for="gridCheck2">
+								Banco de Dados
+							</label>
+							</div>
+					</div>
+					<div class="col-sm-10">
+							<div class="form-check">
+							<input class="form-check-input" type="checkbox" id="gridCheck3">
+							<label class="form-check-label" for="gridCheck3">
+								Armazenamento
+							</label>
+							</div>
+					</div>
+					<div class="col-sm-10">
+							<div class="form-check">
+							<input class="form-check-input" type="checkbox" id="gridCheck4">
+							<label class="form-check-label" for="gridCheck4">
+								Processamento
+							</label>
+							</div>
+					</div>
+				</div>
+				<div class="col">
+						<label for="textArea">Mensagem de Solicitação</label>
+						<textarea id="textArea" name="Mensagem" rows="5" cols="33">
+						</textarea>
+				</div>
+			</div>
+			<button type="submit" class="btn btn-outline-success my-2 my-sm-0">Entrar</button>
+		</form>
+		<div class="notes">
+			<h1>Informações sobre a Solicitação Online</h1>
+			<p>
+				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde, inventore sequi nihil illum veritatis maiores reprehenderit soluta quas earum enim sapiente aperiam cum ea explicabo, possimus perspiciatis laborum tenetur ex.
+			</p>
+			<p>
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio blanditiis dolorum ratione, itaque a eveniet nostrum, nobis nemo cumque, officiis doloribus accusantium? Ut ad reiciendis itaque blanditiis tempora, amet deserunt.
+			</p>
+		</div>
+	</div>
+	<div class="texto-comum">
+		<hr>
+		<h1>Meios de Contato - Redes Sociais</h1>
+		<div id="div-grid3">
+			<a href="http://www.facebook.com.br" target="_blank">
+				<img src="../Imagens/facebook.png" style="width: 100px; height: 100px;" alt="Link do Facebook" class="figure-img img-fluid rounded">
+			</a>
+			<a href="http://www.instagram.com.br" target="_blank">
+				<img src="../Imagens/instagram.png" style="width: 100px; height: 100px;" alt="Link do Instagram" class="figure-img img-fluid rounded">
+			</a>
+			<a href="http://www.linkedin.com.br" target="_blank">
+				<img src="../Imagens/linkedin.jpg" style="width: 100px; height: 100px;" alt="Link do Linkedin" class="figure-img img-fluid rounded">
+			</a>
+			<a href="mailto:brabosoft@email.com">
+				<img src="../Imagens/outlook.jpg" style="width: 100px; height: 100px;" alt="Link do Email" class="figure-img img-fluid rounded">
+			</a>
+		</div>
+	</div>
+	<footer class="footer">Copyright © Todos os direitos reservados ao Andrey e ao Fabrício - Site desenvolvido por eles mesmos
+</footer>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<script src="../JS/home.js"></script>
+</body>
+</html>

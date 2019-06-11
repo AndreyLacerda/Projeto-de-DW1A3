@@ -21,9 +21,26 @@ nav{
 	text-decoration: ghostwhite underline!important;
 }
 
-.tela-atual{
-	color: ghostwhite !important;
+.carousel-item {
+	height: 300px;
+  }
+
+.bd-example{
+	border: 1px solid gold;
+}
+
+.carousel-caption{
 	font-weight: bold;
+	font-size: 25px;
+	color: darkmagenta;
+	text-align: center !important;
+}
+
+.d-block {
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-height: 300px;
 }
 
 p{
@@ -32,22 +49,9 @@ p{
 	padding-right: 40px;
 }
 
-.texto-comum {
-	border: 2px solid black;
-}
-
-.texto-comum > h1{
-	margin-bottom: 20px;
-}
-
-#img{
-	background-color: white;
-}
-
-#div-grid2{
+#div-grid1{
 	display: grid;
-	grid-template-columns: 20% 20% 20% 20% 20%;
-	margin-top: 2%;
+	grid-template-columns: 50% 50%;
 }
 
 #div-grid3{
@@ -63,4 +67,26 @@ p{
 
 .footer{
 	background-color: orangered;
+}
+
+.formGrid{
+	padding-left: 40px;
+}
+
+.form-row{
+	margin-bottom: 40px;
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+.notes{
+	border-left: 2px solid black;
+}
+
+h1{
+	margin-bottom: 25px;
+}
+
+.formGrid > button{
+	margin-bottom: 1% !important;
 }
