@@ -56,11 +56,35 @@ nav{
 	margin-bottom: 20px;
 }
 
-figure > img{
-}
-
 p{
 	text-align: start;
 	padding-left: 40px;
 	padding-right: 40px;
+}
+
+#div-grid1{
+	display: grid;
+	grid-template-columns: 25% 25% 25% 25%;
+	margin-top: 2%;
+}
+
+#div-grid2{
+	display: grid;
+	grid-template-columns: 20% 20% 20% 20% 20%;
+	margin-top: 2%;
+}
+
+#div-grid3{
+	margin-top: 2%;
+	display: grid;
+	grid-template-columns: 25% 25% 25% 25%;
+}
+
+#div-grid3 > a{
+	margin-top: 2%;
+	margin-bottom: 5%;
+}
+
+.footer{
+	background-color: orangered;
 }
