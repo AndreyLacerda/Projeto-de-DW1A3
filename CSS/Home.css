@@ -90,9 +90,11 @@ p{
 }
 
 .carousel-inner img {
-  margin: auto;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .carousel-inner > .item > img{
-margin:auto;
+  margin-top: auto;
+  margin-bottom: auto;
 }
