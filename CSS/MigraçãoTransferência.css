@@ -69,3 +69,8 @@ p{
 .footer{
 	background-color: orangered;
 }
+
+ul{
+	text-align: left;
+	padding-left: 50px;
+}
