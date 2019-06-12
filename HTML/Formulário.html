@@ -51,26 +51,26 @@
 		<form class="formGrid">
 			<div class="form-row">
 				<div class="col">
-				<input type="text" class="form-control" placeholder="Nome*">
+				<input type="text" class="form-control" placeholder="Nome*" id="nome">
 				</div>
 				<div class="col">
-				<input type="text" class="form-control" placeholder="Sobrenome*">
-				</div>
-			</div>
-			<div class="form-row">
-				<div class="col">
-				<input type="text" class="form-control" placeholder="Telefone">
-				</div>
-				<div class="col">
-				<input type="text" class="form-control" placeholder="Email*">
+				<input type="text" class="form-control" placeholder="Sobrenome*" id="sobrenome">
 				</div>
 			</div>
 			<div class="form-row">
 				<div class="col">
-				<input type="text" class="form-control" placeholder="Empresa*">
+				<input type="text" class="form-control" placeholder="Telefone" id="tel">
 				</div>
 				<div class="col">
-				<input type="text" class="form-control" placeholder="Cargo">
+				<input type="text" class="form-control" placeholder="Email*" id="email">
+				</div>
+			</div>
+			<div class="form-row">
+				<div class="col">
+				<input type="text" class="form-control" placeholder="Empresa*" id="empresa">
+				</div>
+				<div class="col">
+				<input type="text" class="form-control" placeholder="Cargo" id="cargo">
 				</div>
 			</div>
 			<div class="form-row">
@@ -108,29 +108,29 @@
 					</select>
 				</div>
 				<div class="col">
-				<input type="text" class="form-control" placeholder="Cidade">
+				<input type="text" class="form-control" placeholder="Cidade" id="cidade">
 				</div>
 			</div>
 			<div class="form-row">
 				<div class="col">
-					<div class="col-sm-2">Checkbox</div>
-					<div class="col-sm-10">
+					<div class="col-sm-25">Serviços*</div>
+					<div class="col-sm-1">
 						<div class="form-check">
 						<input class="form-check-input" type="checkbox" id="gridCheck1">
 						<label class="form-check-label" for="gridCheck1">
-							Migração e Transferência
+							M&T
 						</label>
 						</div>
 					</div>
-					<div class="col-sm-10">
+					<div class="col-sm-1">
 							<div class="form-check">
 							<input class="form-check-input" type="checkbox" id="gridCheck2">
 							<label class="form-check-label" for="gridCheck2">
-								Banco de Dados
+									BD
 							</label>
 							</div>
 					</div>
-					<div class="col-sm-10">
+					<div class="col-sm-1">
 							<div class="form-check">
 							<input class="form-check-input" type="checkbox" id="gridCheck3">
 							<label class="form-check-label" for="gridCheck3">
@@ -138,7 +138,7 @@
 							</label>
 							</div>
 					</div>
-					<div class="col-sm-10">
+					<div class="col-sm-1">
 							<div class="form-check">
 							<input class="form-check-input" type="checkbox" id="gridCheck4">
 							<label class="form-check-label" for="gridCheck4">
@@ -149,19 +149,22 @@
 				</div>
 				<div class="col">
 						<label for="textArea">Mensagem de Solicitação</label>
-						<textarea id="textArea" name="Mensagem" rows="5" cols="33">
+						<textarea id="textArea" name="Mensagem" rows="5" cols="33" style="resize: none;">
 						</textarea>
 				</div>
 			</div>
-			<button type="submit" class="btn btn-outline-success my-2 my-sm-0">Entrar</button>
+			<button type="submit" class="btn btn-outline-success my-2 my-sm-0" id="enviar">Enviar Solicitaçao</button>
 		</form>
 		<div class="notes">
 			<h1>Informações sobre a Solicitação Online</h1>
 			<p>
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde, inventore sequi nihil illum veritatis maiores reprehenderit soluta quas earum enim sapiente aperiam cum ea explicabo, possimus perspiciatis laborum tenetur ex.
+				Para enviar uma solicitação de algum/alguns de nossos serviços, basta preencher o formulário ao lado. Nele, todos os campos obrigatórios(marcados por asterisco '*') devem ser preenchidos para que a solicitação seja enviada. 
+				<p>
+					O Campo 'Mensagem de Solicitação' pode ser usado para a melhor especificação do trabalho requisitado.
+				</p>
 			</p>
 			<p>
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio blanditiis dolorum ratione, itaque a eveniet nostrum, nobis nemo cumque, officiis doloribus accusantium? Ut ad reiciendis itaque blanditiis tempora, amet deserunt.
+				Após o envio do formulário, nós da Brabo iremos analisar, e logo em seguida entraremos em contato via e-mail e via telefone, caso tal tenha sido preenchido.
 			</p>
 		</div>
 	</div>
@@ -185,9 +188,9 @@
 	</div>
 	<footer class="footer">Copyright © Todos os direitos reservados ao Andrey e ao Fabrício - Site desenvolvido por eles mesmos
 </footer>
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-	<script src="../JS/home.js"></script>
+	<script type="text/javascript" src="../JS/Formulário.js"></script>
 </body>
 </html>

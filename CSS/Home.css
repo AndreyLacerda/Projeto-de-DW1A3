@@ -37,7 +37,7 @@ nav{
 .carousel-caption{
 	font-weight: bold;
 	font-size: 25px;
-	color: darkmagenta;
+	color: orangered;
 	text-align: center !important;
 }
 
@@ -87,4 +87,12 @@ p{
 
 .footer{
 	background-color: orangered;
+}
+
+.carousel-inner img {
+  margin: auto;
+}
+
+.carousel-inner > .item > img{
+margin:auto;
 }
