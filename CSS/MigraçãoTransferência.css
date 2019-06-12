@@ -70,7 +70,7 @@ p{
 	background-color: orangered;
 }
 
-ul{
-	text-align: left;
-	padding-left: 50px;
+ul {
+  align-content: center;
+  list-style: inside;
 }
